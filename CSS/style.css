@@ -1,11 +1,13 @@
 .header h1 {
   color: blue;
   font-size: 60px;
-  letter-spacing: 30px; }
+  letter-spacing: 30px;
+  transform: translate(100px, 200px); }
 
 .footer h1 {
-  color: blue;
-  font-size: 60px;
-  letter-spacing: 30px; }
+  color: red;
+  font-size: 40px;
+  letter-spacing: 10px;
+  transform: translate(100px, 200px); }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,14 @@
-@mixin heading-style{
-    color: blue ;
-    font-size: 60px ;
-    letter-spacing: 30px ;
+@mixin heading-style($color ,$font-size,$letter-spacing){
+    color: $color ;
+    font-size: $font-size ;
+    letter-spacing: $letter-spacing ;
+    $translate : translate(100px,200px) ;
+    transform: $translate ;
 }
 
 .header {
     h1 {
-        @include heading-style ;
+        @include heading-style(blue , 60px , 30px) ;
     }
 }
 // .header{
@@ -18,7 +20,7 @@
 // }
 .footer {
     h1 {
-        @include heading-style ;
+        @include heading-style(red , 40px , 10px) ;
     }
 }
 // .footer {
