@@ -1,22 +1,11 @@
-h1 {
-  color: red;
-  font-size: 40px;
-  letter-spacing: 10px;
-  margin-top: 40px; }
+.header h1 {
+  color: blue;
+  font-size: 60px;
+  letter-spacing: 30px; }
 
-.header h2 {
-  font-size: 40px;
-  font-weight: normal;
-  color: blue; }
-  .header h2:hover {
-    color: yellow;
-    font-size: 20px; }
-.header span {
-  font-size: 40px;
-  color: red;
-  letter-spacing: 10px; }
-.header p {
-  color: green;
-  letter-spacing: 40px; }
+.footer h1 {
+  color: blue;
+  font-size: 60px;
+  letter-spacing: 30px; }
 
 /*# sourceMappingURL=style.css.map */

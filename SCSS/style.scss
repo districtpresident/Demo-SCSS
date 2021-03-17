@@ -1,39 +1,30 @@
-// Variable
-$about-heading-color : red ;
-$about-heading-for-size : 40px ;
-$about-heading-letter-spacing : 10px ;
-$about-heading-margin-top : 40px ;
-h1 {
-    color: $about-heading-color ;
-    font-size: $about-heading-for-size ;
-    letter-spacing: $about-heading-letter-spacing ;
-    margin-top: $about-heading-margin-top ;
+@mixin heading-style{
+    color: blue ;
+    font-size: 60px ;
+    letter-spacing: 30px ;
 }
 
 .header {
-
-    h2 {
-        font : {
-            size: 40px ;
-            weight: normal ;
-        }
-        // font-size: 40px ;
-        // font-weight: normal ;
-        color: blue ;
-        &:hover {
-            color: yellow ;
-            font-size: 20px ;
-        }
-    }
-
-    span {
-        font-size: 40px ;
-        color: red ;
-        letter-spacing: 10px ;
-    }
-
-    p {
-        color: green ;
-        letter-spacing: 40px ;
+    h1 {
+        @include heading-style ;
     }
 }
+// .header{
+//     h1 {
+//         color: red ;
+//         font-size: 40px ;
+//         letter-spacing: 20px ;
+//     }
+// }
+.footer {
+    h1 {
+        @include heading-style ;
+    }
+}
+// .footer {
+//     h1 {
+//         color: red ;
+//         font-size: 40px ;
+//         letter-spacing: 20px ;
+//     }
+// }
